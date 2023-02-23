@@ -1,38 +1,171 @@
+body{
+margin:6px;
+}
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+header,footer{
+  text-align:center;
+  width:100%;
+  background:#282c34;
+  color:#ffffff;
+}
+header{
+  border-top-left-radius: 1rem;
+  border-top-right-radius:1rem;
+}
+footer{
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+ /*position: fixed;
+  bottom:0;*/
+}
+.banner-container{
+  margin-bottom: 20px;
+  width: 100%;
+  
+  display:flex;
+  align-items:center;
+  text-align:center;
+  justify-content:center;
+}
+.banner{
+  text-align: center;
+  /*border: 3px solid blue;*/
+
+  height: 410px;
+  line-height: 100%;
+  width: 900px;
+  z-index: 1;
+}
+.bannercontent{
+  /*border: 3px solid olive;*/
+  margin:40px;
+}
+.banner h1{
+  margin-top:20%;
+  border-style: none;
+  text-align:center;
 }
 
-.App-link {
-  color: #61dafb;
+.App_Buttons{
+  width:80%;
+  align-items:center;
+  text-align:center;
+ /* display: flex;
+  flex-direction: column;
+  align-items: right;
+  width:30%;*/
+}
+.App_Buttons button{
+  /*display: block;*/
+  margin:1rem;
+  padding:0.7rem;
+  width:170px;
+  background:#282c34;
+  color:white;
+  border-radius:0.6rem;
+}
+.App_Buttons button:hover{
+  /*display: block;*/
+  margin:1rem;
+  padding:0.7rem;
+  width:170px;
+  background:#ffffff;
+  color:#282c34;
+  border-radius:0.6rem;
+  border:2px solid#282c34;
+  font-weight:bold;
+}
+.BannerInput{
+  text-align:center;
+  align-items:center;
+  display: flex;
+  flex-direction: column;
+  width:40%;
+  padding:0.5rem;
+  /*border:3px solid orange;*/
+}
+.BannerInput input{
+  text-align:center;
+  width:50%;
+  padding: 0.5rem;
+  border:none;
+  border-bottom: #282c34 1px solid;
+}
+.BannerInput input:hover{
+  text-align:center;
+  width:65%;
+  padding: 0.5rem;
+  border:none;
+  border-bottom: #282c34 1px solid;
+}
+.BannerInput input:focus{
+  text-align:center;
+  width:65%;
+  padding: 0.5rem;
+  border:none;
+  border-bottom: #282c34 1px solid;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media (max-width: 640px) {
+  body{
+    border:2px solid pink;
+    margin:0;
   }
-  to {
-    transform: rotate(360deg);
+  .App{
+    text-align:center;
+    align-items:center;
+  }
+  .App_Buttons{
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .BannerInput{
+    width:70%;
+  }
+  .banner-container{
+    width:90%;
   }
 }
+
+@media (min-width: 641px) and (max-width: 1007px) {
+ /* .banner {
+    width: 60%;
+  }
+  .header {
+    width: 60%;
+  }*/
+  
+  body{
+    /*border:2px solid green;*/
+  }
+  .App_Buttons{
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .BannerInput{
+    width:60%;
+  }
+}
+
+@media (min-width: 1008px) {
+  /*.banner {
+    width: 40%;
+  }
+  .header {
+    width: 40%;
+  }*/
+  body{
+   /* border:2px solid red;*/
+  }
+}
+
+
+
+
+
