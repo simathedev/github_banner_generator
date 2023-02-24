@@ -140,9 +140,7 @@ footer{
     width: 60%;
   }*/
   
-  body{
-    /*border:2px solid green;*/
-  }
+ 
   .App_Buttons{
     display: flex;
     flex-direction: column;
@@ -160,9 +158,7 @@ footer{
   .header {
     width: 40%;
   }*/
-  body{
-   /* border:2px solid red;*/
-  }
+  
 }
 
 
