@@ -112,7 +112,6 @@ footer{
 
 @media (max-width: 640px) {
   body{
-    border:2px solid pink;
     margin:0;
   }
   .App{
