@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/github_banner_generator/static/css/main.3cab5d1c.css",
+    "main.js": "/github_banner_generator/static/js/main.0d2d52b5.js",
+    "index.html": "/github_banner_generator/index.html",
+    "main.3cab5d1c.css.map": "/github_banner_generator/static/css/main.3cab5d1c.css.map",
+    "main.0d2d52b5.js.map": "/github_banner_generator/static/js/main.0d2d52b5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3cab5d1c.css",
+    "static/js/main.0d2d52b5.js"
+  ]
+}
