@@ -31,4 +31,4 @@ Background images: https://api.unsplash.com/
   * select custom color
   * click the 'font color' button
 
-I'm still learning React and I'll improve the code as I learn.
+I'm still learning React and css. I'll improve the code as I learn.
